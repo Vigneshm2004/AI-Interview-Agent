@@ -40,44 +40,44 @@ This solution leverages a modern, cost-effective tech stack utilizing generous F
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                     USER INPUT LAYER                             │
+│                     USER INPUT LAYER                            |
 ├──────────────────────────────────────┬──────────────────────────┤
 │  Voice Input (Azure STT)             │  Text Chat Input         │
 └──────────────────────────────────────┴──────────────────────────┘
                          ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                   INTERVIEW AGENT CORE                           │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ 1. Role Data Structure (Dynamic Selection)               │   │
-│  │    - Software Engineer                                   │   │
-│  │    - Sales Representative                                │   │
-│  │    - Retail Associate                                    │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                         ▼                                        │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ 2. LangChain Conversational Memory & Persona             │   │
-│  │    - System Prompt (Role-Specific)                       │   │
-│  │    - Chat Message History                                │   │
-│  │    - Follow-up Question Generation                       │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                         ▼                                        │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ 3. Gemini 2.5 Flash LLM via Google GenAI SDK             │   │
-│  │    - Complex conversational logic                        │   │
-│  │    - Context-aware question generation                  │   │
-│  │    - JSON feedback analysis (Pydantic)                   │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                         ▼                                        │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ 4. Structured Feedback Engine (Pydantic Schema)          │   │
-│  │    - Criterion-based scoring (0.0-5.0)                  │   │
-│  │    - Communication & Technical Knowledge metrics        │   │
-│  │    - Actionable improvement suggestions                │   │
-│  └─────────────────────────────────────────────────────────┘   │
+│                   INTERVIEW AGENT CORE                          |
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │ 1. Role Data Structure (Dynamic Selection)              │    │
+│  │    - Software Engineer                                  │    │
+│  │    - Sales Representative                               │    │
+│  │    - Retail Associate                                   │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                         ▼                                       │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │ 2. LangChain Conversational Memory & Persona            │    │
+│  │    - System Prompt (Role-Specific)                      │    │
+│  │    - Chat Message History                               │    │
+│  │    - Follow-up Question Generation                      │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                         ▼                                       │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │ 3. Gemini 2.5 Flash LLM via Google GenAI SDK            │    │
+│  │    - Complex conversational logic                       │    │
+│  │    - Context-aware question generation                  │    │
+│  │    - JSON feedback analysis (Pydantic)                  │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                         ▼                                       │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │ 4. Structured Feedback Engine (Pydantic Schema)         │    │
+│  │    - Criterion-based scoring (0.0-5.0)                  │    │
+│  │    - Communication & Technical Knowledge metrics        │    │
+│  │    - Actionable improvement suggestions                 │    │
+│  └─────────────────────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────────────┘
                          ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                   AGENT RESPONSE LAYER                           │
+│                   AGENT RESPONSE LAYER                          │
 ├──────────────────────────────────────┬──────────────────────────┤
 │  Voice Output (Azure TTS)            │  Chat Output             │
 └──────────────────────────────────────┴──────────────────────────┘
