@@ -18,7 +18,8 @@ The agent is designed to be:
 
 Click below to watch the demo video (plays directly in GitHub):
 
-[clike](https://raw.githubusercontent.com/Vigneshm2004/AI-Interview-Agent/main/demo%20video.mp4)
+https://raw.githubusercontent.com/Vigneshm2004/AI-Interview-Agent/main/demo%20video.mp4
+
 
 
 
