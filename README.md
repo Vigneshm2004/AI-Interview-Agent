@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Eightfold.ai - Interview Practice Partner Agent
 
 ## Project Overview
@@ -393,3 +394,7 @@ For issues, questions, or suggestions:
 
 **Last Updated**: November 24, 2025  
 **Status**: ✅ Production Ready
+=======
+# AI-Interview-Agent
+Interview Practice Partner AI uses Gemini 2.5 Flash (via LangChain) for role-specific interviews and agentic follow-ups. It integrates Azure Speech for voice interaction and provides structured JSON feedback (Pydantic schema on Communication/Technical knowledge) to ensure high intelligence and adaptability.
+>>>>>>> 0ba7aaace0ba2d779273a84d565cf189391add89
