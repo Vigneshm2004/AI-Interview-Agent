@@ -14,9 +14,12 @@ The agent is designed to be:
 ---
 
 
-## 🎥 Demo Video
+## 🎥 Demo Video (Playable)
 
-[Click here to watch the demo video](https://github.com/Vigneshm2004/AI-Interview-Agent/blob/main/demo%20video.mp4)
+Click below to watch the demo video (plays directly in GitHub):
+
+[clike](https://raw.githubusercontent.com/Vigneshm2004/AI-Interview-Agent/main/demo%20video.mp4)
+
 
 
 ## 🛠️ Tech Stack & Architecture 
