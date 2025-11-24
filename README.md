@@ -14,12 +14,13 @@ The agent is designed to be:
 ---
 
 
-## 🎥Demo Video
 
-<video width="600" controls>
-  <source src="https://raw.githubusercontent.com/Vigneshm2004/AI-Interview-Agent/main/demo%20video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+## 🎥 Demo Video (Playable)
+
+Click below to watch the demo video (plays directly in GitHub):
+
+[Click](https://raw.githubusercontent.com/Vigneshm2004/AI-Interview-Agent/main/demo%20video.mp4)
+
 
 
 
