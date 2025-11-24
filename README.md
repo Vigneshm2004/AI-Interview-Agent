@@ -16,7 +16,7 @@ The agent is designed to be:
 
 ## 🎥 Demo Video
 
-[Click here to watch the demo video](https://github.com/Vigneshm2004/AI-Interview-Agent/blob/main/Screen%20Recording%202025-11-24%20095556%20(1)%20(1).mp4)
+[Click here to watch the demo video]("C:\Users\Vishw\Downloads\Screen Recording 2025-11-24 095556 (1) (1).mp4")
 
 
 ## 🛠️ Tech Stack & Architecture 
