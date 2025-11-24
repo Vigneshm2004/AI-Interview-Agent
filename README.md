@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🚀 Eightfold.ai - Interview Practice Partner Agent
 
 ## Project Overview
@@ -13,7 +13,13 @@ The agent is designed to be:
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+
+## 🎥 Demo Video
+
+[Click here to watch the demo video](https://github.com/Vigneshm2004/AI-Interview-Agent/blob/main/Screen%20Recording%202025-11-24%20095556%20(1)%20(1).mp4)
+
+
+## 🛠️ Tech Stack & Architecture 
 
 This solution leverages a modern, cost-effective tech stack utilizing generous Free Tiers from Google and Azure.
 
@@ -27,6 +33,10 @@ This solution leverages a modern, cost-effective tech stack utilizing generous F
 | **Data Storage** | Local JSON / SQLite (Optional) | Feedback reports saved locally as JSON |
 
 ### Architecture Diagram
+
+## 🏗️ Architecture Diagram
+
+![AI Interview Agent Architecture](https://github.com/Vigneshm2004/AI-Interview-Agent/blob/main/ai_architecuture.png)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -394,7 +404,5 @@ For issues, questions, or suggestions:
 
 **Last Updated**: November 24, 2025  
 **Status**: ✅ Production Ready
-=======
-# AI-Interview-Agent
-Interview Practice Partner AI uses Gemini 2.5 Flash (via LangChain) for role-specific interviews and agentic follow-ups. It integrates Azure Speech for voice interaction and provides structured JSON feedback (Pydantic schema on Communication/Technical knowledge) to ensure high intelligence and adaptability.
->>>>>>> 0ba7aaace0ba2d779273a84d565cf189391add89
+=============================================================================================================================================================================================================
+
